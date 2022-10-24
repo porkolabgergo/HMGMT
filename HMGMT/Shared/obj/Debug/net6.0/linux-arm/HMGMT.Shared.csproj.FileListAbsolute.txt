@@ -1,0 +1,12 @@
+D:\HMGMT\HMGMT\Shared\bin\Debug\net6.0\linux-arm\HMGMT.Shared.deps.json
+D:\HMGMT\HMGMT\Shared\bin\Debug\net6.0\linux-arm\HMGMT.Shared.dll
+D:\HMGMT\HMGMT\Shared\bin\Debug\net6.0\linux-arm\HMGMT.Shared.pdb
+D:\HMGMT\HMGMT\Shared\obj\Debug\net6.0\linux-arm\HMGMT.Shared.csproj.AssemblyReference.cache
+D:\HMGMT\HMGMT\Shared\obj\Debug\net6.0\linux-arm\HMGMT.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\HMGMT\HMGMT\Shared\obj\Debug\net6.0\linux-arm\HMGMT.Shared.AssemblyInfoInputs.cache
+D:\HMGMT\HMGMT\Shared\obj\Debug\net6.0\linux-arm\HMGMT.Shared.AssemblyInfo.cs
+D:\HMGMT\HMGMT\Shared\obj\Debug\net6.0\linux-arm\HMGMT.Shared.csproj.CoreCompileInputs.cache
+D:\HMGMT\HMGMT\Shared\obj\Debug\net6.0\linux-arm\HMGMT.Shared.dll
+D:\HMGMT\HMGMT\Shared\obj\Debug\net6.0\linux-arm\refint\HMGMT.Shared.dll
+D:\HMGMT\HMGMT\Shared\obj\Debug\net6.0\linux-arm\HMGMT.Shared.pdb
+D:\HMGMT\HMGMT\Shared\obj\Debug\net6.0\linux-arm\ref\HMGMT.Shared.dll
