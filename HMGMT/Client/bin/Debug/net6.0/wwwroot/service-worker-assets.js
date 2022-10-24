@@ -21,7 +21,7 @@
       "url": "assets\/thermostat.png"
     },
     {
-      "hash": "sha256-bOi5T5W4c0rUJ4Phnet+2A+w0+wX2FOUFbv0j7UsAVw=",
+      "hash": "sha256-TupeisYDdvh1Y1WtcHahrw4nFEauCznYwQJBYuNJ2xs=",
       "url": "css\/app.css"
     },
     {
@@ -33,7 +33,7 @@
       "url": "css\/bootstrap\/bootstrap.min.css.map"
     },
     {
-      "hash": "sha256-jA4J4h\/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=",
+      "hash": "sha256-+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0=",
       "url": "css\/open-iconic\/FONT-LICENSE"
     },
     {
@@ -49,7 +49,7 @@
       "url": "css\/open-iconic\/font\/fonts\/open-iconic.otf"
     },
     {
-      "hash": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=",
+      "hash": "sha256-oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc=",
       "url": "css\/open-iconic\/font\/fonts\/open-iconic.svg"
     },
     {
@@ -61,11 +61,11 @@
       "url": "css\/open-iconic\/font\/fonts\/open-iconic.woff"
     },
     {
-      "hash": "sha256-aF5g\/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU\/ss=",
+      "hash": "sha256-s\/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4=",
       "url": "css\/open-iconic\/ICON-LICENSE"
     },
     {
-      "hash": "sha256-p\/oxU91iBE+uaDr3kYOyZPuulf4YcPAMNIz6PRA\/tb0=",
+      "hash": "sha256-9wdNXQFE78LCNHo+Hq2eXMTx+YBf2gjsufVTJc8dAV0=",
       "url": "css\/open-iconic\/README.md"
     },
     {
@@ -81,19 +81,19 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-Gh0myIVVzcDsUwTLTm7PM9BBkUu\/14D5gVPgIRN94yA=",
+      "hash": "sha256-LGiR1VQcdrcachGIRSzG77B3cBK3gnMKyAPg5\/rMTtk=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-pDdXwsMj3689M7O3D6zRjTSWQIEXaJ\/fqYtxwODuHqg=",
+      "hash": "sha256-zyleTOmLIJD1fCWtoBgRQ9zViY5BBaLZ9ThjcIm5a5I=",
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-iqJ2tMPKMt5vkyQWQla3ZoPfjTra\/dv9wn9Kt+10XMc=",
+      "hash": "sha256-OQCq7b+Grlg8+39Y8hyCNkmfZQV9pGWnWi+w3TyG75E=",
       "url": "swiper.js"
     },
     {
-      "hash": "sha256-14ZLj\/nOjcMm2x3+Y1wEFvEWrqsA3b8zXjSvoItRBls=",
+      "hash": "sha256-8tttTvDEISROF4T4ccsYgHFeoTRUjpHbtoKHfmL8Z4U=",
       "url": "HMGMT.Client.styles.css"
     },
     {
@@ -183,6 +183,10 @@
     {
       "hash": "sha256-1QozxIvB\/BSiyHOG+DTGKX84WKGJ6RN\/icEJTVaNu+o=",
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
+    },
+    {
+      "hash": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
+      "url": "_framework\/Newtonsoft.Json.dll"
     },
     {
       "hash": "sha256-l4\/4ZlXJSMDm4OEkaCYxS7KAIBx\/QsVu7Tjc96idEYU=",
@@ -874,7 +878,7 @@
     },
     {
       "hash": "sha256-Azk5sbYFVo84h8NpIst9roIPGLH2y8ewQ9SY\/sUHvgs=",
-      "url": "_framework\/dotnet.6.0.9.87mnwbufhz.js"
+      "url": "_framework\/dotnet.6.0.9.xdgiygtl0h.js"
     },
     {
       "hash": "sha256-DCornv7RwGmh5F2M7NdY9Sg66xjw779ggSN9nS\/Br5o=",
@@ -901,19 +905,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-vGvwFVo8LDiQAIgRwaj28Rm2MnPcl3Ydz+hlDfrbais=",
+      "hash": "sha256-1Y1jqgit6uX81NheG4HFr\/UCQpJvSd+h9Q8X6hA2vDs=",
       "url": "_framework\/HMGMT.Shared.dll"
     },
     {
-      "hash": "sha256-XE8GXcOkkwCJHJrlSkhMD4nSFAVH52F\/dJH187UbeTQ=",
+      "hash": "sha256-GwKkPjHYOrcgc\/WGpc0EhNHUW3Q2XKL8QCZRr7fUq54=",
       "url": "_framework\/HMGMT.Shared.pdb"
     },
     {
-      "hash": "sha256-x74KFyqQMg3mFfWfDCEY0sTUYMcARN+0+u50nQja3jI=",
+      "hash": "sha256-8WYnRePwuTJfdRasRXBH7CoSwQ5Dt+J4YbyHb0HxLPo=",
       "url": "_framework\/HMGMT.Client.dll"
     },
     {
-      "hash": "sha256-ga+zmmsnl8Zwt3\/mfnuopSrD3RED94so2K908Z3bY80=",
+      "hash": "sha256-Yuc3tQ6SpD1GB\/nL4BKgQXPi1H2SQbqUy3CRCF6KPMc=",
       "url": "_framework\/HMGMT.Client.pdb"
     },
     {
@@ -921,7 +925,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-sylX0PuZ4yR\/6ee+DJnkW5SsMgXJYqQqSeV7eiOD\/Y0=",
+      "hash": "sha256-a6yzygaZpY6EINy3UzqzTmS5H22eDiSRwzIUcJkyNL0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1033,5 +1037,5 @@
       "url": "_content\/Syncfusion.Blazor.Buttons\/scripts\/sf-speeddial.min.js"
     }
   ],
-  "version": "+i11rUa+"
+  "version": "ECuC8Ytm"
 };
