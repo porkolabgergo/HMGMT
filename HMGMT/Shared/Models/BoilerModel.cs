@@ -4,9 +4,11 @@ namespace HMGMT.Shared.Models;
 
 public class BoilerModel
 {
-    [JsonPropertyName("heating active")] public string HeatingActive { get; set; }
+    [JsonPropertyName("heating active")] 
+    public string HeatingActive { get; set; }
 
-    [JsonPropertyName("tapwater active")] public string TapwaterActive { get; set; }
+    [JsonPropertyName("tapwater active")] 
+    public string TapwaterActive { get; set; }
 
     [JsonPropertyName("selected flow temperature")]
     public int SelectedFlowTemperature { get; set; }

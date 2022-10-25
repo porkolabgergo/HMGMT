@@ -16,7 +16,7 @@
             <h1>BOILER</h1>
         </div>
         <div class="col-4 text-end">
-            <img src="assets/result1.png" width="50" />
+            <img src="assets/boiler_accent.png" width="50" />
         </div>
     </div>
     <div class="row">
@@ -41,7 +41,7 @@
             </span>
         </div>
         <div class="col-10">
-            <h1 style="color: #11E3C7;">24 °C</h1>
+            <h1 style="color: #11E3C7;">@_model?.SelectedFlowTemperature.ToString("G") °C</h1>
         </div>
     </div>
     <div class="row">
@@ -53,7 +53,7 @@
                 foreach (PropertyInfo property in properties)
                 {
                     <tr>
-                        <td style="font-weight:700">@property.Name</td>
+                        <td style="font-weight:700;font-size: 0.8em">@property.Name</td>
                         <td class="text-end">@property.GetValue(_model)?.ToString()</td>
                     </tr>
                 }

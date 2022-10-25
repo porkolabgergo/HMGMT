@@ -10,18 +10,26 @@
     },
     {
       "hash": "sha256-x9zC1b7eWl2itSCP3wJnsIHXiO7OHsijRE1DHYQGl+w=",
-      "url": "assets\/result1.png"
+      "url": "assets\/boiler_accent.png"
     },
     {
-      "hash": "sha256-+Mw53mekbDbEzjd\/E5mzmlXexP\/kl0XPjFlMKBEPf\/4=",
-      "url": "assets\/result2.png"
+      "hash": "sha256-WB2fKShrYElIga3PQaMbErnw8jejT6aAX\/WdToa9bss=",
+      "url": "assets\/mixer.png"
+    },
+    {
+      "hash": "sha256-HqU2NNSayYjdwCW\/S5nul7J+ykmwafBEsPi\/Mh\/RJWE=",
+      "url": "assets\/mixer_accent.png"
     },
     {
       "hash": "sha256-NgiDUe3lO5lAN17KusjD1bm\/ZJ6ahQWF+zXqBRB1Wyk=",
       "url": "assets\/thermostat.png"
     },
     {
-      "hash": "sha256-TupeisYDdvh1Y1WtcHahrw4nFEauCznYwQJBYuNJ2xs=",
+      "hash": "sha256-+Mw53mekbDbEzjd\/E5mzmlXexP\/kl0XPjFlMKBEPf\/4=",
+      "url": "assets\/thermostat_accent.png"
+    },
+    {
+      "hash": "sha256-bkP3EPSemB6CZdzfecYfDTnsF65DZ\/Gfx8\/R5QdMPR0=",
       "url": "css\/app.css"
     },
     {
@@ -33,7 +41,7 @@
       "url": "css\/bootstrap\/bootstrap.min.css.map"
     },
     {
-      "hash": "sha256-+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0=",
+      "hash": "sha256-jA4J4h\/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=",
       "url": "css\/open-iconic\/FONT-LICENSE"
     },
     {
@@ -49,7 +57,7 @@
       "url": "css\/open-iconic\/font\/fonts\/open-iconic.otf"
     },
     {
-      "hash": "sha256-oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc=",
+      "hash": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=",
       "url": "css\/open-iconic\/font\/fonts\/open-iconic.svg"
     },
     {
@@ -61,11 +69,11 @@
       "url": "css\/open-iconic\/font\/fonts\/open-iconic.woff"
     },
     {
-      "hash": "sha256-s\/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4=",
+      "hash": "sha256-aF5g\/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU\/ss=",
       "url": "css\/open-iconic\/ICON-LICENSE"
     },
     {
-      "hash": "sha256-9wdNXQFE78LCNHo+Hq2eXMTx+YBf2gjsufVTJc8dAV0=",
+      "hash": "sha256-p\/oxU91iBE+uaDr3kYOyZPuulf4YcPAMNIz6PRA\/tb0=",
       "url": "css\/open-iconic\/README.md"
     },
     {
@@ -81,19 +89,19 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-LGiR1VQcdrcachGIRSzG77B3cBK3gnMKyAPg5\/rMTtk=",
+      "hash": "sha256-G8wnIOv4ZLUubuFZhrojbgqOr3vZbKr9u1hrMsxO1Bs=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-zyleTOmLIJD1fCWtoBgRQ9zViY5BBaLZ9ThjcIm5a5I=",
+      "hash": "sha256-pDdXwsMj3689M7O3D6zRjTSWQIEXaJ\/fqYtxwODuHqg=",
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-OQCq7b+Grlg8+39Y8hyCNkmfZQV9pGWnWi+w3TyG75E=",
+      "hash": "sha256-iqJ2tMPKMt5vkyQWQla3ZoPfjTra\/dv9wn9Kt+10XMc=",
       "url": "swiper.js"
     },
     {
-      "hash": "sha256-8tttTvDEISROF4T4ccsYgHFeoTRUjpHbtoKHfmL8Z4U=",
+      "hash": "sha256-J2oc4uQdtr74Yvu++Z4+oUlo+sU8TMnnRSGSf+btOF4=",
       "url": "HMGMT.Client.styles.css"
     },
     {
@@ -878,7 +886,7 @@
     },
     {
       "hash": "sha256-Azk5sbYFVo84h8NpIst9roIPGLH2y8ewQ9SY\/sUHvgs=",
-      "url": "_framework\/dotnet.6.0.9.xdgiygtl0h.js"
+      "url": "_framework\/dotnet.6.0.9.87mnwbufhz.js"
     },
     {
       "hash": "sha256-DCornv7RwGmh5F2M7NdY9Sg66xjw779ggSN9nS\/Br5o=",
@@ -905,19 +913,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-GUyll3U8+1Adg2I0Jo4DguA4Ngfkm7dQ+u87dhtv2Kw=",
+      "hash": "sha256-721b8BIgUpqMqzcBpWkBvGEKWF5kjwqFeLDkQ\/H0A0s=",
       "url": "_framework\/HMGMT.Shared.dll"
     },
     {
-      "hash": "sha256-RvuPd6BcniW\/NCPvKWtFrFLF4ZHdEUzrE3ANY29+BlU=",
+      "hash": "sha256-LfGLDo7MjaSj5VX1HIVgF1YjfLczLSf+eaMLLaw\/jE0=",
       "url": "_framework\/HMGMT.Shared.pdb"
     },
     {
-      "hash": "sha256-MarSWvEfEniF0Qp\/GkLzCV91ZRS2ARxL1YVg75ykbpI=",
+      "hash": "sha256-IKJjyQDUGAkO5bjMYXY5qD\/+FwGrmBBe6kIEqNNYt0U=",
       "url": "_framework\/HMGMT.Client.dll"
     },
     {
-      "hash": "sha256-yVMTWS1GXMOLtbMWslEJPbe2gzWbAfkIL2l1iDtKxD8=",
+      "hash": "sha256-+oW52Dn8k1siqITT5RNsldDoJ5IneNnjLhGvkVXT6d4=",
       "url": "_framework\/HMGMT.Client.pdb"
     },
     {
@@ -925,7 +933,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-QmfAzmIqj4ki9wR0l0UoAgA\/5Uv3xf5wNZAU09UyA\/I=",
+      "hash": "sha256-OwdVJLbtr5eGM+F9HORO6ZSE+FVyxku86VKHjuUIcu4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1037,5 +1045,5 @@
       "url": "_content\/Syncfusion.Blazor.Buttons\/scripts\/sf-speeddial.min.js"
     }
   ],
-  "version": "TAAGvlmZ"
+  "version": "FDrg\/nK0"
 };

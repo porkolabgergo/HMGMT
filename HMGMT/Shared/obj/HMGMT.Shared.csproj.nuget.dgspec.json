@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/HMGMT.Shared.csproj": {}
+    "D:\\HMGMT\\HMGMT\\Shared\\HMGMT.Shared.csproj": {}
   },
   "projects": {
-    "/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/HMGMT.Shared.csproj": {
+    "D:\\HMGMT\\HMGMT\\Shared\\HMGMT.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/HMGMT.Shared.csproj",
+        "projectUniqueName": "D:\\HMGMT\\HMGMT\\Shared\\HMGMT.Shared.csproj",
         "projectName": "HMGMT.Shared",
-        "projectPath": "/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/HMGMT.Shared.csproj",
-        "packagesPath": "/home/gergo/.nuget/packages/",
-        "outputPath": "/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/obj/",
+        "projectPath": "D:\\HMGMT\\HMGMT\\Shared\\HMGMT.Shared.csproj",
+        "packagesPath": "C:\\Users\\porkg\\.nuget\\packages\\",
+        "outputPath": "D:\\HMGMT\\HMGMT\\Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/gergo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\porkg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\FastReports\\FastReport.Net\\Nugets\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/gergo/.dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

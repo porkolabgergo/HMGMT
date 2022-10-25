@@ -1,5 +1,58 @@
-﻿<h3>MixerData</h3>
+﻿@page "/mixerdata/{MixerId}"
+@using System.Reflection
+@using HMGMT.Shared.Models
+@using Newtonsoft.Json
+@inject HttpClient Http
+@inject NavigationManager NavMan;
+
+<div class="container-fluid pt-2">
+    <div class="row">
+        <span @onclick="NavBack" style="cursor: pointer">
+            <img src="assets/back.png" width="20" />
+        </span>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-8">
+            <h1>@MixerId.ToUpper()</h1>
+        </div>
+        <div class="col-4 text-end">
+            <img src="assets/mixer_accent.png" width="50" />
+        </div>
+    </div>
+    <div class="row">
+        <table class="table tab hmgmt-table">
+            <tbody>
+            @if (_model != null)
+            {
+                PropertyInfo[] properties = typeof(MixerModel).GetProperties();
+                foreach (PropertyInfo property in properties)
+                {
+                    <tr>
+                        <td style="font-weight:700;font-size: 0.8em">@property.Name</td>
+                        <td class="text-end">@property.GetValue(_model)?.ToString()</td>
+                    </tr>
+                }
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
 
 @code {
+    [Parameter]
+    public string? MixerId { get; set; }
+    
+    MixerModel? _model;
+    readonly string _baseUrl = @"http://localhost:5039/api/";
 
+    protected override async Task OnInitializedAsync()
+    {
+        _model = await Http.GetFromJsonAsync<MixerModel>(_baseUrl + $"mixer/{MixerId}");
+    }
+
+    void NavBack()
+    {
+        NavMan.NavigateTo("/");
+    }
 }

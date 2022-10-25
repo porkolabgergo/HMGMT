@@ -5,7 +5,9 @@
 }
 
 main {
-    flex: 1;
+    /*flex: 1;*/
+    max-width: 500px !important;
+    width: 100% !important;
 }
 
 .sidebar {

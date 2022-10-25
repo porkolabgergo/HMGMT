@@ -31,6 +31,10 @@ tbody {
     font-size: calc(1rem + 1.5vw);
 }
 
+.hmgmt-table {
+    font-size: .8em;   
+}
+
 .swiper {
     width: 100%;
     height: 100%;

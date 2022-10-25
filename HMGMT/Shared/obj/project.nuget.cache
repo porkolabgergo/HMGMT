@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bEhZJesXDXAx3yxk4DWCvJCDsKm0vbUcKigF60E+BItHEUK/2nUcRO1d8IOLqzTwom0t8N8tS7D7SGZ0vTBnkw==",
+  "dgSpecHash": "xsvLtl4o4CZ3gJlimXEqdzPr42Y15PN6uZt4h6PjcZLVv4FJeUIA5+cyi2UtcpQNyDkR31hDu0E2x4g6HAHIuw==",
   "success": true,
-  "projectFilePath": "/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/HMGMT.Shared.csproj",
+  "projectFilePath": "D:\\HMGMT\\HMGMT\\Shared\\HMGMT.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
