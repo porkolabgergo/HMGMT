@@ -8,10 +8,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("NewPolicy", builder =>
-        builder.AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader());
+    options.AddDefaultPolicy(builder => builder
+        .AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader());
 });
 
 var app = builder.Build();

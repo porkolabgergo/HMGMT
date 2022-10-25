@@ -11,7 +11,7 @@ public class MixerController : ControllerBase
     public string Get(string mixerId)
     {
         var client = new RestClient($"http://10.0.0.224/api/mixer/{mixerId}");
-        client.Timeout = -1;
+        client.Timeout = 5000;
         var request = new RestRequest(Method.GET);
         IRestResponse response = client.Execute(request);
         return response.Content;

@@ -104,3 +104,4 @@ D:\HMGMT\HMGMT\Server\obj\Debug\net6.0\scopedcss\bundle\HMGMT.Server.styles.css
 D:\HMGMT\HMGMT\Server\obj\Debug\net6.0\HMGMT.Server.csproj.CopyComplete
 D:\HMGMT\HMGMT\Server\obj\Debug\net6.0\HMGMT.Server.genruntimeconfig.cache
 D:\HMGMT\HMGMT\Server\obj\Debug\net6.0\ref\HMGMT.Server.dll
+D:\HMGMT\HMGMT\Server\bin\Debug\net6.0\Syncfusion.Blazor.Notifications.dll

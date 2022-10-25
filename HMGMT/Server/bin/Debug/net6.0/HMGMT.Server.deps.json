@@ -242,6 +242,18 @@
           }
         }
       },
+      "Syncfusion.Blazor.Notifications/20.3.0.50": {
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "20.3.0.50",
+          "Syncfusion.Blazor.Core": "20.3.0.50"
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Notifications.dll": {
+            "assemblyVersion": "20.3.0.50",
+            "fileVersion": "20.3.0.50"
+          }
+        }
+      },
       "Syncfusion.Blazor.Themes/20.3.0.50": {
         "runtime": {
           "lib/net6.0/Syncfusion.Blazor.Themes.dll": {
@@ -291,6 +303,7 @@
           "RestSharp": "106.3.0",
           "Syncfusion.Blazor.Buttons": "20.3.0.50",
           "Syncfusion.Blazor.Core": "20.3.0.50",
+          "Syncfusion.Blazor.Notifications": "20.3.0.50",
           "Syncfusion.Blazor.Themes": "20.3.0.50"
         },
         "runtime": {
@@ -512,6 +525,13 @@
       "sha512": "sha512-y2BFsRqrDDv+aisTeIeluqssQkRcRki20DBJee8Z6mGGyxlE1Plr38Sk2fZIQaTMGkgle/cw52LD2dWJS8cFNQ==",
       "path": "syncfusion.blazor.core/20.3.0.50",
       "hashPath": "syncfusion.blazor.core.20.3.0.50.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.Notifications/20.3.0.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tIgbTyq52tULtgmIawnDCMQdooWboClMceKYmsTLjJg0HCSG935YQS2TxQTRnxQPghrL1L2EuJwkxCqUQn9/bw==",
+      "path": "syncfusion.blazor.notifications/20.3.0.50",
+      "hashPath": "syncfusion.blazor.notifications.20.3.0.50.nupkg.sha512"
     },
     "Syncfusion.Blazor.Themes/20.3.0.50": {
       "type": "package",

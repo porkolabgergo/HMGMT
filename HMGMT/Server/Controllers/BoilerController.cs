@@ -11,7 +11,7 @@ public class BoilerController : ControllerBase
     public string Get()
     {
         var client = new RestClient("http://10.0.0.224/api/boiler/info");
-        client.Timeout = -1;
+        client.Timeout = 5000;
         var request = new RestRequest(Method.GET);
         IRestResponse response = client.Execute(request);
         return response.Content;

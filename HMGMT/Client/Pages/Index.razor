@@ -42,20 +42,40 @@
         </div>
     </div>
 </div>
+<SfToast @ref="Toast" Title="Error" ShowCloseButton="true">
+    <ToastPosition X="Center" Y="Bottom"/>
+</SfToast>
+
+<style>
+    .e-toast-container .e-toast {
+        background-color: #11E3C7;
+    }
+</style>
 
 @code {
     
-    MainCard? boilerCard;
     MainCard? thermostatCard;
     BoilerModel? _boilerModel;
     ThermostatModel? _thermostatModel;
-    readonly string _baseUrl = @"http://localhost:5039/api";
+    MixerModel? _hc1;
+    MixerModel? _hc2;
+    MixerModel? _hc3;
     bool ischecked = false;
+    SfToast Toast { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        _boilerModel = await Http.GetFromJsonAsync<BoilerModel>(_baseUrl + "/boiler");
-        _thermostatModel = await Http.GetFromJsonAsync<ThermostatModel>(_baseUrl + "/thermostat");
+        try
+        {
+            _boilerModel = await Http.GetFromJsonAsync<BoilerModel>(UrlConstants.apiUrl + "boiler");
+            _thermostatModel = await Http.GetFromJsonAsync<ThermostatModel>(UrlConstants.apiUrl + "thermostat");
+        }
+        catch (Exception e)
+        {
+            Toast.Content = "Cannot get data from Server";
+            await Toast.ShowAsync();
+        }
+
     }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -81,10 +101,5 @@
     void NavigateTo(string route)
     {
         NavMan.NavigateTo(route);
-    }
-
-    void NavigateToMixer(string mixerId)
-    {
-        NavMan.NavigateTo($"/mixerdata/{mixerId}");
     }
 }

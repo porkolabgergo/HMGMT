@@ -1699,3 +1699,7 @@ D:\HMGMT\HMGMT\Client\obj\Debug\net6.0\service-worker\service-worker.js
 D:\HMGMT\HMGMT\Client\obj\Debug\net6.0\service-worker-assets.js.build
 D:\HMGMT\HMGMT\Client\obj\Debug\net6.0\HMGMT.Client.csproj.CopyComplete
 D:\HMGMT\HMGMT\Client\obj\Debug\net6.0\ref\HMGMT.Client.dll
+D:\HMGMT\HMGMT\Client\bin\Debug\net6.0\wwwroot\_framework\Syncfusion.Blazor.Notifications.dll
+D:\HMGMT\HMGMT\Client\bin\Debug\net6.0\wwwroot\_framework\Syncfusion.Blazor.Notifications.dll.gz
+D:\HMGMT\HMGMT\Client\bin\Debug\net6.0\Syncfusion.Blazor.Notifications.dll
+D:\HMGMT\HMGMT\Client\obj\Debug\net6.0\build-gz\i8YQ3wEU.gz

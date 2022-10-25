@@ -62,14 +62,30 @@
         </table>
     </div>
 </div>
+<SfToast @ref="Toast" Title="Error" ShowCloseButton="true">
+    <ToastPosition X="Center" Y="Bottom"/>
+</SfToast>
+<style>
+    .e-toast-container .e-toast {
+        background-color: #11E3C7;
+    }
+</style>
 
 @code {
     BoilerModel? _model;
-    readonly string _url = @"http://localhost:5039/api/boiler";
+    SfToast Toast { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        _model = await Http.GetFromJsonAsync<BoilerModel>(_url);
+        try
+        {
+            _model = await Http.GetFromJsonAsync<BoilerModel>($"{UrlConstants.apiUrl}boiler");
+        }
+        catch (Exception e)
+        {
+            Toast.Content = "Cannot get Boiler data from Server";
+            await Toast.ShowAsync();
+        }
     }
 
     void NavBack()

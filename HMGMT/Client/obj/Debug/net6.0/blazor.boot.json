@@ -33,6 +33,7 @@
       "RestSharp.dll": "sha256-l4\/4ZlXJSMDm4OEkaCYxS7KAIBx\/QsVu7Tjc96idEYU=",
       "Syncfusion.Blazor.Buttons.dll": "sha256-n3YfMi7ApnMchs\/hhO5gKG7KPv4HzoCHmjsRsgRSnMc=",
       "Syncfusion.Blazor.Core.dll": "sha256-ZScwQ1bMZp4tvDzw9UAYrvt8VKDhid30zkguLDpEKR8=",
+      "Syncfusion.Blazor.Notifications.dll": "sha256-6Y0nIKEtLcT8GBwthomUJHUAWvTE2waZ3frTec0WMEs=",
       "Syncfusion.Blazor.Themes.dll": "sha256-Ym7QDwgmbOPBOYNGVKwLDqjTsTcEinS4CklqiNvj9SA=",
       "Syncfusion.Licensing.dll": "sha256-70vIECY4xZbObg0dXZESP+FOuLqW8HmqJlcFA\/GAZpE=",
       "System.IO.Pipelines.dll": "sha256-6+E55JXedimdw1c1bDtVg4K7XuWjVWVTifH8QpfzXSY=",
@@ -202,15 +203,15 @@
       "mscorlib.dll": "sha256-MnMyZHtcymf0sLxXeFBbQZVsdNdxT0GXJaa9t3ZdSek=",
       "netstandard.dll": "sha256-+SGdnDhVMiZ9hq0EsYwJ+mcK0odf3bAtXnSKLorGDCs=",
       "System.Private.CoreLib.dll": "sha256-mqfalNg3wC8XHlyA+j5ioNcnc0kt4prNudKdyJoaYaU=",
-      "HMGMT.Shared.dll": "sha256-721b8BIgUpqMqzcBpWkBvGEKWF5kjwqFeLDkQ\/H0A0s=",
-      "HMGMT.Client.dll": "sha256-IKJjyQDUGAkO5bjMYXY5qD\/+FwGrmBBe6kIEqNNYt0U="
+      "HMGMT.Shared.dll": "sha256-BvSJks0WzxgbmWvXysYaralkS9vNpif9NyEBRWwZXzY=",
+      "HMGMT.Client.dll": "sha256-gjozhAD3VqrHzpOgDvsossnzzvV8ze3\/wCNm9wQXX8M="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "HMGMT.Shared.pdb": "sha256-LfGLDo7MjaSj5VX1HIVgF1YjfLczLSf+eaMLLaw\/jE0=",
-      "HMGMT.Client.pdb": "sha256-+oW52Dn8k1siqITT5RNsldDoJ5IneNnjLhGvkVXT6d4="
+      "HMGMT.Shared.pdb": "sha256-x4iwY3HRSt5wTsv\/TcVSiXTR9820cjddX+IlHhQzSRw=",
+      "HMGMT.Client.pdb": "sha256-1kTHTN\/lTXc3lTp1MsI7+Ggb1kdR5Fvxz2BDwOrPOQ4="
     },
     "runtime": {
       "dotnet.6.0.9.87mnwbufhz.js": "sha256-Azk5sbYFVo84h8NpIst9roIPGLH2y8ewQ9SY\/sUHvgs=",

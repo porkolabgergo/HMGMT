@@ -1,7 +1,6 @@
 ﻿@page "/mixerdata/{MixerId}"
 @using System.Reflection
 @using HMGMT.Shared.Models
-@using Newtonsoft.Json
 @inject HttpClient Http
 @inject NavigationManager NavMan;
 
@@ -20,35 +19,50 @@
             <img src="assets/mixer_accent.png" width="50" />
         </div>
     </div>
-    <div class="row">
-        <table class="table tab hmgmt-table">
-            <tbody>
-            @if (_model != null)
+<div class="row">
+    <table class="table tab hmgmt-table">
+        <tbody>
+        @if (_model != null)
+        {
+            PropertyInfo[] properties = typeof(MixerModel).GetProperties();
+            foreach (PropertyInfo property in properties)
             {
-                PropertyInfo[] properties = typeof(MixerModel).GetProperties();
-                foreach (PropertyInfo property in properties)
-                {
-                    <tr>
-                        <td style="font-weight:700;font-size: 0.8em">@property.Name</td>
-                        <td class="text-end">@property.GetValue(_model)?.ToString()</td>
-                    </tr>
-                }
+                <tr>
+                    <td style="font-weight:700;font-size: 0.8em">@property.Name</td>
+                    <td class="text-end">@property.GetValue(_model)?.ToString()</td>
+                </tr>
             }
-            </tbody>
-        </table>
-    </div>
+        }
+        </tbody>
+    </table>
 </div>
-
+</div>
+    <SfToast @ref="Toast" Title="Error" ShowCloseButton="true">
+        <ToastPosition X="Center" Y="Bottom"/>
+    </SfToast>
+<style>
+    .e-toast-container .e-toast {
+        background-color: #11E3C7;
+    }
+</style>
 @code {
     [Parameter]
     public string? MixerId { get; set; }
     
     MixerModel? _model;
-    readonly string _baseUrl = @"http://localhost:5039/api/";
+    SfToast Toast { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        _model = await Http.GetFromJsonAsync<MixerModel>(_baseUrl + $"mixer/{MixerId}");
+        try
+        {
+            _model = await Http.GetFromJsonAsync<MixerModel>( $"{UrlConstants.apiUrl}mixer/{MixerId}");
+        }
+        catch (Exception e)
+        {
+            Toast.Content = "Cannot get Mixer data from Server";
+            await Toast.ShowAsync();
+        }
     }
 
     void NavBack()

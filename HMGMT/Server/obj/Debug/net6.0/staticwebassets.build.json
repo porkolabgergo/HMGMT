@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9jddOMaexHYJhoRcDW4iN/H0iDcZe05onp6OOTHT3TA=",
+  "Hash": "tOZptIObL7EQBQbC5AJukqZ3aQbrbq9OmHAXi8pkhqc=",
   "Source": "HMGMT.Server",
   "BasePath": "_content/HMGMT.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "HMGMT.Client",
       "GetPublishAssetsTargets": "ComputeFilesToPublish;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true",
+      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true;Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "NoBuild;RuntimeIdentifier;WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
@@ -199,6 +199,23 @@
       "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.core\\20.3.0.50\\staticwebassets\\scripts\\svgbase.min.js"
     },
     {
+      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.core\\20.3.0.50\\staticwebassets\\scripts\\syncfusion-blazor.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.core\\20.3.0.50\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/syncfusion-blazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.core\\20.3.0.50\\staticwebassets\\scripts\\syncfusion-blazor.min.js"
+    },
+    {
       "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.core\\20.3.0.50\\staticwebassets\\scripts\\syncfusion-blazor-base.min.js",
       "SourceId": "Syncfusion.Blazor.Core",
       "SourceType": "Package",
@@ -233,12 +250,12 @@
       "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.core\\20.3.0.50\\staticwebassets\\scripts\\syncfusion-blazor-extended.min.js"
     },
     {
-      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.core\\20.3.0.50\\staticwebassets\\scripts\\syncfusion-blazor.min.js",
-      "SourceId": "Syncfusion.Blazor.Core",
+      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.notifications\\20.3.0.50\\staticwebassets\\scripts\\sf-toast.min.js",
+      "SourceId": "Syncfusion.Blazor.Notifications",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.core\\20.3.0.50\\staticwebassets\\",
-      "BasePath": "_content/Syncfusion.Blazor.Core",
-      "RelativePath": "scripts/syncfusion-blazor.min.js",
+      "ContentRoot": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.notifications\\20.3.0.50\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Notifications",
+      "RelativePath": "scripts/sf-toast.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -247,24 +264,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.core\\20.3.0.50\\staticwebassets\\scripts\\syncfusion-blazor.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\bootstrap-dark.css",
-      "SourceId": "Syncfusion.Blazor.Themes",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\",
-      "BasePath": "_content/Syncfusion.Blazor.Themes",
-      "RelativePath": "bootstrap-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\bootstrap-dark.css"
+      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.notifications\\20.3.0.50\\staticwebassets\\scripts\\sf-toast.min.js"
     },
     {
       "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\bootstrap.css",
@@ -301,23 +301,6 @@
       "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\bootstrap4.css"
     },
     {
-      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\bootstrap5-dark.css",
-      "SourceId": "Syncfusion.Blazor.Themes",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\",
-      "BasePath": "_content/Syncfusion.Blazor.Themes",
-      "RelativePath": "bootstrap5-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\bootstrap5-dark.css"
-    },
-    {
       "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\bootstrap5.css",
       "SourceId": "Syncfusion.Blazor.Themes",
       "SourceType": "Package",
@@ -335,12 +318,12 @@
       "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\bootstrap5.css"
     },
     {
-      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\fabric-dark.css",
+      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\bootstrap5-dark.css",
       "SourceId": "Syncfusion.Blazor.Themes",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor.Themes",
-      "RelativePath": "fabric-dark.css",
+      "RelativePath": "bootstrap5-dark.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -349,7 +332,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\fabric-dark.css"
+      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\bootstrap5-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\bootstrap-dark.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "bootstrap-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\bootstrap-dark.css"
     },
     {
       "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\fabric.css",
@@ -369,12 +369,12 @@
       "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\fabric.css"
     },
     {
-      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\fluent-dark.css",
+      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\fabric-dark.css",
       "SourceId": "Syncfusion.Blazor.Themes",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor.Themes",
-      "RelativePath": "fluent-dark.css",
+      "RelativePath": "fabric-dark.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -383,7 +383,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\fluent-dark.css"
+      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\fabric-dark.css"
     },
     {
       "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\fluent.css",
@@ -403,6 +403,23 @@
       "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\fluent.css"
     },
     {
+      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\fluent-dark.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "fluent-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\fluent-dark.css"
+    },
+    {
       "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\highcontrast.css",
       "SourceId": "Syncfusion.Blazor.Themes",
       "SourceType": "Package",
@@ -418,23 +435,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\highcontrast.css"
-    },
-    {
-      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\material-dark.css",
-      "SourceId": "Syncfusion.Blazor.Themes",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\",
-      "BasePath": "_content/Syncfusion.Blazor.Themes",
-      "RelativePath": "material-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\material-dark.css"
     },
     {
       "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\material.css",
@@ -454,12 +454,12 @@
       "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\material.css"
     },
     {
-      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\tailwind-dark.css",
+      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\material-dark.css",
       "SourceId": "Syncfusion.Blazor.Themes",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor.Themes",
-      "RelativePath": "tailwind-dark.css",
+      "RelativePath": "material-dark.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -468,7 +468,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\tailwind-dark.css"
+      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\material-dark.css"
     },
     {
       "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\tailwind.css",
@@ -486,6 +486,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\tailwind.css"
+    },
+    {
+      "Identity": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\tailwind-dark.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "tailwind-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\staticwebassets\\tailwind-dark.css"
     },
     {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
@@ -641,6 +658,23 @@
       "OriginalItemSpec": "D:\\HMGMT\\HMGMT\\Shared\\bin\\Debug\\net6.0\\HMGMT.Shared.pdb"
     },
     {
+      "Identity": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "HMGMT.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.9\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "HMGMT.Client",
       "SourceType": "Project",
@@ -690,23 +724,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.9\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "HMGMT.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.9\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -1268,6 +1285,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.core\\20.3.0.50\\lib\\net6.0\\Syncfusion.Blazor.Core.dll"
+    },
+    {
+      "Identity": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Syncfusion.Blazor.Notifications.dll",
+      "SourceId": "HMGMT.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Syncfusion.Blazor.Notifications.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.notifications\\20.3.0.50\\lib\\net6.0\\Syncfusion.Blazor.Notifications.dll"
     },
     {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Syncfusion.Blazor.Themes.dll",
@@ -5894,6 +5928,23 @@
       "OriginalItemSpec": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebClient.dll"
     },
     {
+      "Identity": "D:\\HMGMT\\HMGMT\\Client\\obj\\Debug\\net6.0\\build-gz\\i8YQ3wEU.gz",
+      "SourceId": "HMGMT.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Syncfusion.Blazor.Notifications.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Syncfusion.Blazor.Notifications.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Syncfusion.Blazor.Notifications.dll"
+    },
+    {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\obj\\Debug\\net6.0\\build-gz\\idtX2siz.gz",
       "SourceId": "HMGMT.Client",
       "SourceType": "Project",
@@ -7560,23 +7611,6 @@
       "OriginalItemSpec": "D:\\HMGMT\\HMGMT\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HMGMT.Client.styles.css"
     },
     {
-      "Identity": "D:\\HMGMT\\HMGMT\\Client\\obj\\Debug\\net6.0\\service-worker-assets.js.build",
-      "SourceId": "HMGMT.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "service-worker-assets.js",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorServiceWorker",
-      "AssetTraitValue": "ServiceWorkerManifest",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker-assets.js.build"
-    },
-    {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\obj\\Debug\\net6.0\\service-worker\\service-worker.js",
       "SourceId": "HMGMT.Client",
       "SourceType": "Project",
@@ -7592,6 +7626,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\service-worker.js"
+    },
+    {
+      "Identity": "D:\\HMGMT\\HMGMT\\Client\\obj\\Debug\\net6.0\\service-worker-assets.js.build",
+      "SourceId": "HMGMT.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\HMGMT\\HMGMT\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "service-worker-assets.js",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorServiceWorker",
+      "AssetTraitValue": "ServiceWorkerManifest",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker-assets.js.build"
     },
     {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\assets\\back.png",
@@ -7611,23 +7662,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\back.png"
     },
     {
-      "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\assets\\boiler_accent.png",
-      "SourceId": "HMGMT.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "assets/boiler_accent.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\boiler_accent.png"
-    },
-    {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\assets\\boiler.png",
       "SourceId": "HMGMT.Client",
       "SourceType": "Project",
@@ -7645,12 +7679,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\boiler.png"
     },
     {
-      "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\assets\\mixer_accent.png",
+      "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\assets\\boiler_accent.png",
       "SourceId": "HMGMT.Client",
       "SourceType": "Project",
       "ContentRoot": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "assets/mixer_accent.png",
+      "RelativePath": "assets/boiler_accent.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7659,7 +7693,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\mixer_accent.png"
+      "OriginalItemSpec": "wwwroot\\assets\\boiler_accent.png"
     },
     {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\assets\\mixer.png",
@@ -7679,12 +7713,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\mixer.png"
     },
     {
-      "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\assets\\thermostat_accent.png",
+      "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\assets\\mixer_accent.png",
       "SourceId": "HMGMT.Client",
       "SourceType": "Project",
       "ContentRoot": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "assets/thermostat_accent.png",
+      "RelativePath": "assets/mixer_accent.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7693,7 +7727,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\thermostat_accent.png"
+      "OriginalItemSpec": "wwwroot\\assets\\mixer_accent.png"
     },
     {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\assets\\thermostat.png",
@@ -7711,6 +7745,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\thermostat.png"
+    },
+    {
+      "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\assets\\thermostat_accent.png",
+      "SourceId": "HMGMT.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assets/thermostat_accent.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\thermostat_accent.png"
     },
     {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\css\\app.css",
@@ -7762,23 +7813,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "HMGMT.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -7881,6 +7915,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "HMGMT.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "D:\\HMGMT\\HMGMT\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

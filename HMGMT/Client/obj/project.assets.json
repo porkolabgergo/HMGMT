@@ -481,6 +481,29 @@
           "buildMultiTargeting/Syncfusion.Blazor.Core.props": {}
         }
       },
+      "Syncfusion.Blazor.Notifications/20.3.0.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "20.3.0.50",
+          "Syncfusion.Blazor.Core": "20.3.0.50"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.Blazor.Notifications.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Notifications.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Notifications.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Notifications.props": {}
+        }
+      },
       "Syncfusion.Blazor.Themes/20.3.0.50": {
         "type": "package",
         "compile": {
@@ -1094,6 +1117,29 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Syncfusion.Blazor.Core.props": {}
+        }
+      },
+      "Syncfusion.Blazor.Notifications/20.3.0.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Blazor.Buttons": "20.3.0.50",
+          "Syncfusion.Blazor.Core": "20.3.0.50"
+        },
+        "compile": {
+          "lib/net6.0/Syncfusion.Blazor.Notifications.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Notifications.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Blazor.Notifications.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Syncfusion.Blazor.Notifications.props": {}
         }
       },
       "Syncfusion.Blazor.Themes/20.3.0.50": {
@@ -1995,6 +2041,29 @@
         "syncfusion_logo.png"
       ]
     },
+    "Syncfusion.Blazor.Notifications/20.3.0.50": {
+      "sha512": "tIgbTyq52tULtgmIawnDCMQdooWboClMceKYmsTLjJg0HCSG935YQS2TxQTRnxQPghrL1L2EuJwkxCqUQn9/bw==",
+      "type": "package",
+      "path": "syncfusion.blazor.notifications/20.3.0.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Syncfusion.Blazor.Notifications.props",
+        "buildMultiTargeting/Syncfusion.Blazor.Notifications.props",
+        "buildTransitive/Syncfusion.Blazor.Notifications.props",
+        "lib/net6.0/Syncfusion.Blazor.Notifications.dll",
+        "lib/net6.0/Syncfusion.Blazor.Notifications.xml",
+        "lib/netstandard2.1/Syncfusion.Blazor.Notifications.dll",
+        "lib/netstandard2.1/Syncfusion.Blazor.Notifications.xml",
+        "staticwebassets/scripts/sf-toast.min.js",
+        "syncfusion.blazor.notifications.20.3.0.50.nupkg.sha512",
+        "syncfusion.blazor.notifications.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
     "Syncfusion.Blazor.Themes/20.3.0.50": {
       "sha512": "9F9i+HJXfqu3Opg5CY2/OyC0tUGhUHEXawxX9veoL0YV0I5K3Bk1SsUlqDkdntX7TM0BYAgahKywpbYP5zDAYw==",
       "type": "package",
@@ -2234,6 +2303,7 @@
       "RestSharp >= 106.3.0",
       "Syncfusion.Blazor.Buttons >= 20.3.0.50",
       "Syncfusion.Blazor.Core >= 20.3.0.50",
+      "Syncfusion.Blazor.Notifications >= 20.3.0.50",
       "Syncfusion.Blazor.Themes >= 20.3.0.50"
     ]
   },
@@ -2309,6 +2379,10 @@
             "version": "[20.3.0.50, )"
           },
           "Syncfusion.Blazor.Core": {
+            "target": "Package",
+            "version": "[20.3.0.50, )"
+          },
+          "Syncfusion.Blazor.Notifications": {
             "target": "Package",
             "version": "[20.3.0.50, )"
           },

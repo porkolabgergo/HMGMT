@@ -42,14 +42,30 @@
         </table>
     </div>
 </div>
+<SfToast @ref="Toast" Title="Error" ShowCloseButton="true">
+    <ToastPosition X="Center" Y="Bottom"/>
+</SfToast>
+<style>
+    .e-toast-container .e-toast {
+        background-color: #11E3C7;
+    }
+</style>
 
 @code {
     ThermostatModel? _model;
-    readonly string _baseUrl = @"http://localhost:5039/api/";
+    SfToast Toast { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        _model = await Http.GetFromJsonAsync<ThermostatModel>(_baseUrl + "thermostat");
+        try
+        {
+            _model = await Http.GetFromJsonAsync<ThermostatModel>($"{UrlConstants.apiUrl}thermostat");
+        }
+        catch (Exception e)
+        {
+            Toast.Content = "Cannot get Thermostat data from Server";
+            await Toast.ShowAsync();
+        }
     }
 
     void NavBack()

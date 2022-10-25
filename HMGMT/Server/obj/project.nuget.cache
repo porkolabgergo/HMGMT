@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GpD5JcmP2zXGl6xwIddsgQ8X/+orNH8eY8Q2zfHek+fKMZIAemECDX1MxT+q6Tk0Jh1DUiIYUB5TzJ/v8IdcpQ==",
+  "dgSpecHash": "pi5VRd4i+ox9Tloyu8D6aWNx2mXBUSqFlRyiRZ0Q2GbUPZx9Yfu7wk0tISUeJ88xU3573VwTEmPK2kbXiutUFA==",
   "success": true,
   "projectFilePath": "D:\\HMGMT\\HMGMT\\Server\\HMGMT.Server.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\porkg\\.nuget\\packages\\restsharp\\106.3.0\\restsharp.106.3.0.nupkg.sha512",
     "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.buttons\\20.3.0.50\\syncfusion.blazor.buttons.20.3.0.50.nupkg.sha512",
     "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.core\\20.3.0.50\\syncfusion.blazor.core.20.3.0.50.nupkg.sha512",
+    "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.notifications\\20.3.0.50\\syncfusion.blazor.notifications.20.3.0.50.nupkg.sha512",
     "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.blazor.themes\\20.3.0.50\\syncfusion.blazor.themes.20.3.0.50.nupkg.sha512",
     "C:\\Users\\porkg\\.nuget\\packages\\syncfusion.licensing\\20.3.0.50\\syncfusion.licensing.20.3.0.50.nupkg.sha512",
     "C:\\Users\\porkg\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
