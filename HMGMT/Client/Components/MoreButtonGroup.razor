@@ -1,0 +1,28 @@
+<span @onclick="InvokeNavToDetails" class="more_btn" >
+    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="5" viewBox="0 0 19 5">
+        <g transform="translate(-278 -501)">
+            <circle id="Ellipse_2" data-name="Ellipse 2" cx="2.5" cy="2.5" r="2.5" transform="translate(285 501)" />
+            <circle id="Ellipse_3" data-name="Ellipse 3" cx="2.5" cy="2.5" r="2.5" transform="translate(292 501)" />
+            <circle id="Ellipse_4" data-name="Ellipse 4" cx="2.5" cy="2.5" r="2.5" transform="translate(278 501)" />
+        </g>
+    </svg>
+</span>
+
+<style>
+    .more_btn 
+    {
+        cursor: pointer
+    }
+</style>
+
+@code {
+
+    [Parameter]
+    public Action? NavToDetails { get; set; }
+
+    private void InvokeNavToDetails()
+    {
+        NavToDetails?.Invoke();
+    }
+
+}

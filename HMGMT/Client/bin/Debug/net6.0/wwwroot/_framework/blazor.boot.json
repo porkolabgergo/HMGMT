@@ -202,15 +202,15 @@
       "mscorlib.dll": "sha256-MnMyZHtcymf0sLxXeFBbQZVsdNdxT0GXJaa9t3ZdSek=",
       "netstandard.dll": "sha256-+SGdnDhVMiZ9hq0EsYwJ+mcK0odf3bAtXnSKLorGDCs=",
       "System.Private.CoreLib.dll": "sha256-mqfalNg3wC8XHlyA+j5ioNcnc0kt4prNudKdyJoaYaU=",
-      "HMGMT.Shared.dll": "sha256-1Y1jqgit6uX81NheG4HFr\/UCQpJvSd+h9Q8X6hA2vDs=",
-      "HMGMT.Client.dll": "sha256-8WYnRePwuTJfdRasRXBH7CoSwQ5Dt+J4YbyHb0HxLPo="
+      "HMGMT.Shared.dll": "sha256-GUyll3U8+1Adg2I0Jo4DguA4Ngfkm7dQ+u87dhtv2Kw=",
+      "HMGMT.Client.dll": "sha256-MarSWvEfEniF0Qp\/GkLzCV91ZRS2ARxL1YVg75ykbpI="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "HMGMT.Shared.pdb": "sha256-GwKkPjHYOrcgc\/WGpc0EhNHUW3Q2XKL8QCZRr7fUq54=",
-      "HMGMT.Client.pdb": "sha256-Yuc3tQ6SpD1GB\/nL4BKgQXPi1H2SQbqUy3CRCF6KPMc="
+      "HMGMT.Shared.pdb": "sha256-RvuPd6BcniW\/NCPvKWtFrFLF4ZHdEUzrE3ANY29+BlU=",
+      "HMGMT.Client.pdb": "sha256-yVMTWS1GXMOLtbMWslEJPbe2gzWbAfkIL2l1iDtKxD8="
     },
     "runtime": {
       "dotnet.6.0.9.xdgiygtl0h.js": "sha256-Azk5sbYFVo84h8NpIst9roIPGLH2y8ewQ9SY\/sUHvgs=",

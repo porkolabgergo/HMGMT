@@ -1,9 +1,12 @@
 ﻿@page "/thermostatdata"
+@using System.Reflection
+@using HMGMT.Shared.Models
+@inject HttpClient Http
 @inject NavigationManager NavMan;
 
 <div class="container-fluid pt-2">
     <div class="row">
-        <span @onclick="back" style="cursor: pointer">
+        <span @onclick="NavBack" style="cursor: pointer">
             <img src="assets/back.png" width="20" />
         </span>
     </div>
@@ -17,26 +20,6 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-2">
-            <span>
-                <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="43" height="38" viewBox="0 0 43 38" style="opacity: 0.7">
-                        <g id="btn_temp_plus">
-                            <path d="M 36.14098739624023 35.99999618530273 L 6.859018325805664 35.99999618530273 C 5.822058200836182 35.99999618530273 5.305357933044434 35.30593490600586 5.131328105926514 35.00753402709961 C 4.957308292388916 34.70912551879883 4.607687950134277 33.91763687133789 5.1183180809021 33.01513671875 L 19.75929832458496 7.138035774230957 C 20.27767753601074 6.221826076507568 21.14930725097656 6.122905731201172 21.49999809265137 6.122905731201172 C 21.85068893432617 6.122905731201172 22.72231864929199 6.221826076507568 23.24069786071777 7.138035774230957 L 37.88168716430664 33.01513671875 C 38.39231872558594 33.91763687133789 38.04268646240234 34.70913696289062 37.86866760253906 35.00753402709961 C 37.69463729858398 35.30593490600586 37.17793655395508 35.99999618530273 36.14098739624023 35.99999618530273 Z" stroke="none" fill="#11E3C7" />
-                            <path d="M 21.49999809265137 8.122905731201172 L 6.8590087890625 33.99999618530273 L 36.14097595214844 34.00000762939453 L 21.50000381469727 8.122905731201172 C 21.50000190734863 8.122905731201172 21.5 8.122905731201172 21.49999809265137 8.122905731201172 M 21.49999809265137 4.122909545898438 C 22.85779762268066 4.122909545898438 24.21559715270996 4.799659729003906 24.98139762878418 6.153167724609375 L 39.62237930297852 32.03026580810547 C 41.13106918334961 34.69677734375 39.20471954345703 37.99999618530273 36.14098739624023 37.99999618530273 L 6.8590087890625 37.99999618530273 C 3.7952880859375 37.99999618530273 1.868927001953125 34.69677734375 3.377609252929688 32.03026580810547 L 18.01859855651855 6.153167724609375 C 18.78439903259277 4.799659729003906 20.14219856262207 4.122909545898438 21.49999809265137 4.122909545898438 Z" stroke="none" fill="#11E3C7" />
-                        </g>
-                    </svg>
-                </p>
-            </span>
-            <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="37" viewBox="0 0 43 37" style="opacity: 0.7">
-                    <g id="btn_temp_minus" transform="translate(43 37) rotate(180)" fill="none">
-                        <path d="M18.041,5.952a4,4,0,0,1,6.917,0L39.508,30.99A4,4,0,0,1,36.049,37H6.951a4,4,0,0,1-3.459-6.01Z" stroke="none" />
-                        <path d="M 21.49999618530273 7.961505889892578 C 21.4999942779541 7.961505889892578 21.4999942779541 7.961509704589844 21.49999237060547 7.961513519287109 L 6.950603485107422 33.00000381469727 L 36.04939270019531 33.00000381469727 L 21.50000190734863 7.961513519287109 C 21.5 7.961509704589844 21.49999809265137 7.961505889892578 21.49999618530273 7.961505889892578 M 21.49999618530273 3.961505889892578 C 22.84373474121094 3.961505889892578 24.18747138977051 4.624954223632812 24.9585018157959 5.95184326171875 L 39.50789260864258 30.99033355712891 C 41.05744171142578 33.656982421875 39.13356018066406 37.00000381469727 36.04939270019531 37.00000381469727 L 6.950603485107422 37.00000381469727 C 3.866432189941406 37.00000381469727 1.942562103271484 33.656982421875 3.492103576660156 30.99033355712891 L 18.0414924621582 5.95184326171875 C 18.81252098083496 4.624954223632812 20.15625953674316 3.961505889892578 21.49999618530273 3.961505889892578 Z" stroke="none" fill="#11E3C7" />
-                    </g>
-                </svg>
-            </span>
-        </div>
         <div class="col-10">
             <h1 style="color: #11E3C7;">24 °C</h1>
         </div>
@@ -44,61 +27,33 @@
     <div class="row">
         <table class="table tab hmgmt-table">
             <tbody>
-                <tr>
-                    <td style="font-weight:700">mode</td>
-                    <td class="text-end" style="font-weight:200">manual</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:700">mode type</td>
-                    <td class="text-end">eco</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:700">floor drying</td>
-                    <td class="text-end">off</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:700">mode</td>
-                    <td class="text-end" style="font-weight:200">manual</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:700">mode type</td>
-                    <td class="text-end">eco</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:700">floor drying</td>
-                    <td class="text-end">off</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:700">mode</td>
-                    <td class="text-end" style="font-weight:200">manual</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:700">mode type</td>
-                    <td class="text-end">eco</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:700">floor drying</td>
-                    <td class="text-end">off</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:700">mode</td>
-                    <td class="text-end" style="font-weight:200">manual</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:700">mode type</td>
-                    <td class="text-end">eco</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:700">floor drying</td>
-                    <td class="text-end">off</td>
-                </tr>
+            @if (_model != null)
+            {
+                PropertyInfo[] properties = typeof(ThermostatModel).GetProperties();
+                foreach (PropertyInfo property in properties)
+                {
+                    <tr>
+                        <td style="font-weight:700">@property.Name</td>
+                        <td class="text-end">@property.GetValue(_model)?.ToString()</td>
+                    </tr>
+                }
+            }
             </tbody>
         </table>
     </div>
 </div>
 
-@code{
-    void back(){
+@code {
+    ThermostatModel? _model;
+    readonly string _baseUrl = @"http://localhost:5039/api/";
+
+    protected override async Task OnInitializedAsync()
+    {
+        _model = await Http.GetFromJsonAsync<ThermostatModel>(_baseUrl + "thermostat");
+    }
+
+    void NavBack()
+    {
         NavMan.NavigateTo("/");
     }
 }

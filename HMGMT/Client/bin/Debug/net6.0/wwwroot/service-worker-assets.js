@@ -905,19 +905,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-1Y1jqgit6uX81NheG4HFr\/UCQpJvSd+h9Q8X6hA2vDs=",
+      "hash": "sha256-GUyll3U8+1Adg2I0Jo4DguA4Ngfkm7dQ+u87dhtv2Kw=",
       "url": "_framework\/HMGMT.Shared.dll"
     },
     {
-      "hash": "sha256-GwKkPjHYOrcgc\/WGpc0EhNHUW3Q2XKL8QCZRr7fUq54=",
+      "hash": "sha256-RvuPd6BcniW\/NCPvKWtFrFLF4ZHdEUzrE3ANY29+BlU=",
       "url": "_framework\/HMGMT.Shared.pdb"
     },
     {
-      "hash": "sha256-8WYnRePwuTJfdRasRXBH7CoSwQ5Dt+J4YbyHb0HxLPo=",
+      "hash": "sha256-MarSWvEfEniF0Qp\/GkLzCV91ZRS2ARxL1YVg75ykbpI=",
       "url": "_framework\/HMGMT.Client.dll"
     },
     {
-      "hash": "sha256-Yuc3tQ6SpD1GB\/nL4BKgQXPi1H2SQbqUy3CRCF6KPMc=",
+      "hash": "sha256-yVMTWS1GXMOLtbMWslEJPbe2gzWbAfkIL2l1iDtKxD8=",
       "url": "_framework\/HMGMT.Client.pdb"
     },
     {
@@ -925,7 +925,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-a6yzygaZpY6EINy3UzqzTmS5H22eDiSRwzIUcJkyNL0=",
+      "hash": "sha256-QmfAzmIqj4ki9wR0l0UoAgA\/5Uv3xf5wNZAU09UyA\/I=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1037,5 +1037,5 @@
       "url": "_content\/Syncfusion.Blazor.Buttons\/scripts\/sf-speeddial.min.js"
     }
   ],
-  "version": "ECuC8Ytm"
+  "version": "TAAGvlmZ"
 };
