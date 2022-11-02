@@ -11,49 +11,49 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = HMGMT.Client
 build_property.RootNamespace = HMGMT.Client
-build_property.ProjectDir = D:\HMGMT\HMGMT\Client\
+build_property.ProjectDir = /home/gergo/RiderProjects/HMGMT/HMGMT/Client/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\HMGMT\HMGMT\Client
+build_property.MSBuildProjectDirectory = /home/gergo/RiderProjects/HMGMT/HMGMT/Client
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/HMGMT/HMGMT/Client/App.razor]
+[/home/gergo/RiderProjects/HMGMT/HMGMT/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HMGMT/HMGMT/Client/Components/MainCard.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNYWluQ2FyZC5yYXpvcg==
+[/home/gergo/RiderProjects/HMGMT/HMGMT/Client/Components/MainCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NYWluQ2FyZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HMGMT/HMGMT/Client/Components/MoreButtonGroup.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb3JlQnV0dG9uR3JvdXAucmF6b3I=
+[/home/gergo/RiderProjects/HMGMT/HMGMT/Client/Components/MoreButtonGroup.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Nb3JlQnV0dG9uR3JvdXAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HMGMT/HMGMT/Client/Components/SwipeCard.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTd2lwZUNhcmQucmF6b3I=
+[/home/gergo/RiderProjects/HMGMT/HMGMT/Client/Components/SwipeCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Td2lwZUNhcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HMGMT/HMGMT/Client/Pages/BoilerData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9pbGVyRGF0YS5yYXpvcg==
+[/home/gergo/RiderProjects/HMGMT/HMGMT/Client/Pages/BoilerData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9pbGVyRGF0YS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HMGMT/HMGMT/Client/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[/home/gergo/RiderProjects/HMGMT/HMGMT/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HMGMT/HMGMT/Client/Pages/MixerData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWl4ZXJEYXRhLnJhem9y
+[/home/gergo/RiderProjects/HMGMT/HMGMT/Client/Pages/MixerData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWl4ZXJEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HMGMT/HMGMT/Client/Pages/ThermostatData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhlcm1vc3RhdERhdGEucmF6b3I=
+[/home/gergo/RiderProjects/HMGMT/HMGMT/Client/Pages/ThermostatData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGhlcm1vc3RhdERhdGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HMGMT/HMGMT/Client/_Imports.razor]
+[/home/gergo/RiderProjects/HMGMT/HMGMT/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HMGMT/HMGMT/Client/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-6jv95m35xu
+[/home/gergo/RiderProjects/HMGMT/HMGMT/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5kfjkp0u9l

@@ -1,0 +1,12 @@
+/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/bin/Release/net6.0/HMGMT.Shared.deps.json
+/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/bin/Release/net6.0/HMGMT.Shared.dll
+/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/bin/Release/net6.0/HMGMT.Shared.pdb
+/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/obj/Release/net6.0/HMGMT.Shared.csproj.AssemblyReference.cache
+/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/obj/Release/net6.0/HMGMT.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/obj/Release/net6.0/HMGMT.Shared.AssemblyInfoInputs.cache
+/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/obj/Release/net6.0/HMGMT.Shared.AssemblyInfo.cs
+/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/obj/Release/net6.0/HMGMT.Shared.csproj.CoreCompileInputs.cache
+/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/obj/Release/net6.0/HMGMT.Shared.dll
+/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/obj/Release/net6.0/refint/HMGMT.Shared.dll
+/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/obj/Release/net6.0/HMGMT.Shared.pdb
+/home/gergo/RiderProjects/HMGMT/HMGMT/Shared/obj/Release/net6.0/ref/HMGMT.Shared.dll

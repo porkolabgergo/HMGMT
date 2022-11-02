@@ -18,10 +18,13 @@
               DeviceTemp="@_thermostatModel?.DampedOutdoorTemperature.ToString("G")"
               IconWidth="50"/>
     <br/>
-    <MainCard Header="BOILER"
+    <MainCard @ref="boilerCard"
+              Header="BOILER"
               IconSource="assets/boiler.png"
               IconWidth="60"
-              DeviceTemp="@_boilerModel?.SelectedFlowTemperature.ToString("G")"
+              UpMethod="BoilerUpClicked"
+              DownMethod="BoilerDownClicked"
+              DeviceTemp="@_boilerModel?.DhwSelectedTemperature.ToString("G")"
               NavToDetails="@(() =>NavigateTo("/boilerdata"))"/>
 
     <br/>
@@ -55,6 +58,7 @@
 @code {
     
     MainCard? thermostatCard;
+    MainCard? boilerCard;
     BoilerModel? _boilerModel;
     ThermostatModel? _thermostatModel;
     MixerModel? _hc1;
@@ -97,6 +101,26 @@
         var oldTemp = _thermostatModel?.DampedOutdoorTemperature - 0.5;
         if (_thermostatModel != null) _thermostatModel.DampedOutdoorTemperature -= 0.5;
         if (thermostatCard != null) thermostatCard.DeviceTemp = oldTemp?.ToString("F1");
+    }
+
+    void BoilerUpClicked()
+    {
+        if (_boilerModel != null)
+        {
+            _boilerModel.DhwSelectedTemperature += 1;
+            Http.PostAsync($"{UrlConstants.apiUrl}boiler/{_boilerModel.DhwSelectedTemperature.ToString()}", null);
+            if (boilerCard != null) boilerCard.DeviceTemp = _boilerModel.DhwSelectedTemperature.ToString("G");
+        }
+    }
+
+    void BoilerDownClicked()
+    {
+        if (_boilerModel != null)
+        {
+            _boilerModel.DhwSelectedTemperature -= 1;
+            Http.PostAsync($"{UrlConstants.apiUrl}boiler/{_boilerModel.DhwSelectedTemperature.ToString()}", null);
+            if (boilerCard != null) boilerCard.DeviceTemp = _boilerModel.DhwSelectedTemperature.ToString("G");
+        }
     }
     void NavigateTo(string route)
     {
